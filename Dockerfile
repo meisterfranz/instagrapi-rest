@@ -4,7 +4,7 @@ RUN apt-get update \
 && apt-get install gcc ffmpeg -y \
 && apt-get clean
 
-EXPOSE 8000
+EXPOSE 8081
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 ENV PIP_NO_CACHE_DIR=1
 ENV PYTHONUNBUFFERED=1
